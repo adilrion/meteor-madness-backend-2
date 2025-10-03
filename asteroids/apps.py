@@ -1,0 +1,8 @@
+from django.apps import AppConfig
+
+
+class AsteroidsConfig(AppConfig):
+    default_auto_field = 'django.db.models.BigAutoField'
+    name = 'asteroids'
+    verbose_name = 'Asteroid Threat Assessment'
+
